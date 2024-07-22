@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'grosvenor': "url('/blue-window-ltd-assignment/public/Grosvenor-casinos.png')",
+        'happy-spins': "url('/blue-window-ltd-assignment/public/Happy-spins.png')",
+        'hajpers': "url('/blue-window-ltd-assignment/public/Hajpers.png')",
+      },
       fontFamily: {
         sans: ['var(--font-montserrat)'],
       },
