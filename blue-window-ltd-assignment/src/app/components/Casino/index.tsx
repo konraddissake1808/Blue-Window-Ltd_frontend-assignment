@@ -5,6 +5,7 @@ import Hajpers from "../../../../public/Hajpers.png"
 import Image from 'next/image';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Button from './_components/_button';
 
 interface CasinoProps {
   title?: string;
@@ -34,6 +35,9 @@ const Casino: React.FC<CasinoProps> = ({image, id, title, rating}) => {
                             <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
                         </div>
                     </div>
+                    <div>
+                        <Button></Button>
+                    </div>
                 </div>
             </div>
         );
@@ -56,6 +60,9 @@ const Casino: React.FC<CasinoProps> = ({image, id, title, rating}) => {
                             <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
                             <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
                         </div>
+                    </div>
+                    <div>
+                        <Button></Button>
                     </div>
                 </div>
             </div>
@@ -92,6 +99,9 @@ const Casino: React.FC<CasinoProps> = ({image, id, title, rating}) => {
                                 <p>Get £400</p>
                             </div>
                         </div>
+                    </div>
+                    <div>
+                        <Button></Button>
                     </div>
                 </div>
             </div>
