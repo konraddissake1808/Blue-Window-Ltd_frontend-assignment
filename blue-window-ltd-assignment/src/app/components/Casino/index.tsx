@@ -3,7 +3,8 @@ import GrosvenorCasino from "../../../../public/Grosvenor-casinos.png"
 import HappySpins from "../../../../public/Happy-spins.png"
 import Hajpers from "../../../../public/Hajpers.png"
 import Image from 'next/image';
-import { faStar } from '@fortawesome/free-regular-svg-icons';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 interface CasinoProps {
   title?: string;
@@ -24,8 +25,14 @@ const Casino: React.FC<CasinoProps> = ({image, id, title, rating}) => {
                     <div>
                         <p className='text-center'>{title}</p>
                     </div>
-                    <div>
-
+                    <div className='w-full flex justify-center'>
+                        <div className='flex justify-center text-[#F09F00]'>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -38,7 +45,18 @@ const Casino: React.FC<CasinoProps> = ({image, id, title, rating}) => {
                     <div className='h-[117px] flex justify-center items-center overflow-hidden bg-[#43082F]'>
                         <Image className=' bg-center bg-contain h-[133px] w-[133px]' src={HappySpins} alt=''/>
                     </div>
-                    <p className='text-center'>{title}</p>
+                    <div>
+                        <p className='text-center'>{title}</p>
+                    </div>
+                    <div className='w-full flex justify-center'>
+                        <div className='flex justify-center text-[#F09F00]'>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
@@ -52,6 +70,28 @@ const Casino: React.FC<CasinoProps> = ({image, id, title, rating}) => {
                     </div>
                     <div>
                         <p className='text-center font-sans'>{title}</p>
+                    </div>
+                    <div className='w-full flex justify-center'>
+                        <div className='flex justify-center text-[#F09F00]'>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='h-[31px] w-[31px]' icon={faStar}></FontAwesomeIcon>
+                        </div>
+                    </div>
+                    <div className='text-center'>
+                        <div className='font-semibold text-xl'>
+                            <p>Bonus</p>
+                        </div>
+                        <div className='font-normal text-[28px]'>
+                            <div>
+                                <p>Bet £10</p>
+                            </div>
+                            <div>
+                                <p>Get £400</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
