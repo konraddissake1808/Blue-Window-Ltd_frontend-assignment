@@ -1,7 +1,10 @@
 import Image from "next/image";
 import { Montserrat } from "next/font/google";
 
-const inter = Montserrat({ subsets: ['latin'] })
+const montserrat = Montserrat({ 
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+})
 
 export default function Home() {
   return (
