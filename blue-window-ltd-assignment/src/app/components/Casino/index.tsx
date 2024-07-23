@@ -26,7 +26,7 @@ const Casino: React.FC<CasinoProps> = ({image, id, title, rating}) => {
                             <Image className='bg-contain bg-center h-[133px] w-[133px]' src={GrosvenorCasino} alt=''/>
                         </div>
                         <div className='md:ml-[29px] md:flex md:flex-col md:justify-start lg:flex-row lg:ml-0 lg:w-[60%] lg:pl-[29px] lg:items-center'>
-                            <div className='w-[60%]'>
+                            <div className='lg:w-[60%]'>
                                 <div>
                                     <p className='text-center text-xl font-normal underline mt-[18px] md:text-left md:mt-1'>{title}</p>
                                 </div>
@@ -73,7 +73,7 @@ const Casino: React.FC<CasinoProps> = ({image, id, title, rating}) => {
                             <Image className='bg-contain bg-center h-[133px] w-[133px]' src={HappySpins} alt=''/>
                         </div>
                         <div className='md:ml-[29px] md:flex md:flex-col md:justify-start lg:flex-row lg:ml-0 lg:w-[60%] lg:pl-[29px] lg:items-center'>
-                            <div className='w-[60%]'>
+                            <div className='lg:w-[60%]'>
                                 <div>
                                     <p className='text-center text-xl font-normal underline mt-[18px] md:text-left md:mt-1'>{title}</p>
                                 </div>
@@ -120,7 +120,7 @@ const Casino: React.FC<CasinoProps> = ({image, id, title, rating}) => {
                             <Image className='bg-contain bg-center h-[133px] w-[133px]' src={Hajpers} alt=''/>
                         </div>
                         <div className='md:ml-[29px] md:flex md:flex-col md:justify-start lg:flex-row lg:ml-0 lg:w-[60%] lg:pl-[29px] lg:items-center'>
-                            <div className='w-[60%]'>
+                            <div className='lg:w-[60%]'>
                                 <div>
                                     <p className='text-center text-xl font-normal underline mt-[18px] md:text-left md:mt-1'>{title}</p>
                                 </div>
